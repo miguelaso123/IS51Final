@@ -115,20 +115,20 @@ When the save button is pressed, save the items to local storage and display a t
 
 ## Points Breakdown
 
-1. Show a toast or an alert showing about text when the "About" link is pressed 6 pts
+<!-- 1. Show a toast or an alert showing about text when the "About" link is pressed 6 pts -->
 2. convert name from <Last Name>, <First Name> to <First Name> <Last Name> and display text 15 pts
-3. Aggregate and Calculate total, subtotal and and tax amount 15 pts
+<!-- 3. Aggregate and Calculate total, subtotal and and tax amount 15 pts -->
 4. perform input validation 15 pts (total of items below)
   ```
 1. Name input field not specified. 3.75 pts
 2. Name not containing a “, ”. 3.75 pts
-3. Login validation failed (username and/or password not specified) 3.75 pts
-4. Login validation failed (username and/or password not matching default user credentials) 3.75 pts
-  ```
-5. Save the items to local storage when the "Save" button is clicked 15 pts
-6. Add corresponding bike items when the "Add Bike Model X" button is clicked 15 pts
-7. Delete corresponding item when the "delete" button is clicked 15 pts
-8. Read in the inventory.json file and populate the list table with the initial bikes (3) 15 pts
-9. Read items from local storage and display the items into the view 15 pts
-10. Display calculated results on the home page (see screenshot) 24 pts
-11. Login Page submit button Logging in user
+<!-- 3. Login validation failed (username and/or password not specified) 3.75 pts -->
+<!-- 4. Login validation failed (username and/or password not matching default user credentials) 3.75 pts -->
+  <!-- ``` -->
+<!-- 5. Save the items to local storage when the "Save" button is clicked 15 pts -->
+<!-- 6. Add corresponding bike items when the "Add Bike Model X" button is clicked 15 pts -->
+<!-- 7. Delete corresponding item when the "delete" button is clicked 15 pts -->
+<!-- 8. Read in the inventory.json file and populate the list table with the initial bikes (3) 15 pts -->
+<!-- 9. Read items from local storage and display the items into the view 15 pts -->
+<!-- 10. Display calculated results on the home page (see screenshot) 24 pts -->
+<!-- 11. Login Page submit button Logging in user -->

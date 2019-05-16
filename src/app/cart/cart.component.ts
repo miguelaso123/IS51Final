@@ -117,27 +117,27 @@ export class CartComponent implements OnInit {
   }
 
   checkout() {
-    const commaIndex = this.name.indexOf(', ');
-    let error = false;
+    // const commaIndex = this.name.indexOf(', ');
+    // let error = false;
 
-    if (commaIndex === -1) {
-      error = true;
-      this.toastService.showToast('warning', 2500, 'Must contain , ');
-    }
-    if (this.name === '') {
-      error = true;
-      this.toastService.showToast('warning', 2500, 'Name field must not be empty!');
-    } else {
-      const firstName = this.name.slice(commaIndex + 1, this.name.length);
-      const lastName = this.name.slice(0, commaIndex);
-      error = false;
+    // if (commaIndex === -1) {
+    //   error = true;
+    //   this.toastService.showToast('warning', 2500, 'Must contain , ');
+    // }
+    // if (this.name === '') {
+    //   error = true;
+    //   this.toastService.showToast('warning', 2500, 'Name field must not be empty!');
+    // } else {
+    //   const firstName = this.name.slice(commaIndex + 1, this.name.length);
+    //   const lastName = this.name.slice(0, commaIndex);
+    //   error = false;
       const data = this.calculate();
-      const fullName = firstName + ' ' + lastName;
+      // const fullName = firstName + ' ' + lastName;
 
       localStorage.setItem('calculatedData', JSON.stringify(data));
-      localStorage.setItem('fullName', JSON.stringify(fullName));
+      // localStorage.setItem('fullName', JSON.stringify(fullName));
       this.router.navigate(['invoice', data]);
-    };
+    // };
 
   }
 }

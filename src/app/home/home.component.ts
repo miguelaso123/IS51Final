@@ -7,10 +7,12 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  data: any;
   constructor(private activatedRoute: ActivatedRoute) { }
 
   ngOnInit() {
-
+    this.data = JSON.parse(localStorage.getItem('calculatedData'));
+    // this.data = JSON.parse(localStorage.getItem('fullName'));
   }
 
 }
